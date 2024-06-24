@@ -1,0 +1,81 @@
+baseURL = 'https://clement-thorens.ch/'
+languageCode = "en"
+title = 'Clément Thorens'
+theme = "soho"
+
+enableInlineShortcodes = true
+
+summarylength = 10
+enableEmoji = true
+
+[params]
+author = "Clément Thorens"
+description = ""
+
+## Set one of:
+# gravatar = "soho@example.com"
+profilePicture = "images/kontaktparty.jpg"
+
+# copyright = "Author Name"
+# license = "CC BY-SA 4.0"
+# licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+
+## Set custom theme color.
+# themeColor = "#fc2803"
+
+## Set custom CSS and/or JS to override site defaults.
+# customCss = ["css/blog.css"]
+# customJs = ["js/blog.js"]
+
+## Set as many as you want.
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/cl%C3%A9ment-thorens-b56356283/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/cthorens"
+
+[[params.socialIcons]]
+icon = "fa-mastodon"
+title = "Mastodon"
+url = "https://infosec.exchange/@cthorens"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "Email"
+url = "mailto:clement.thorens@inf.ethz.ch"
+
+[menu]
+
+# [[menu.main]]
+# name = "Posts"
+# weight = 100
+# identifier = "posts"
+# url = "/posts/"
+
+# [[menu.main]]
+# name = "About"
+# identifier = "about"
+# weight = 300
+# url = "/about/"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+
+[markup]
+
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true # if false, you need to provide you own custom CSS
+style = "monokai"
+tabWidth = 4
