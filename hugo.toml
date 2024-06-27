@@ -10,7 +10,7 @@ enableEmoji = true
 
 [params]
 author = "Clément Thorens"
-description = ""
+description = "clement.thorens@inf.ethz.ch"
 
 ## Set one of:
 # gravatar = "soho@example.com"
@@ -42,11 +42,6 @@ url = "https://github.com/cthorens"
 icon = "fa-mastodon"
 title = "Mastodon"
 url = "https://infosec.exchange/@cthorens"
-
-[[params.socialIcons]]
-icon = "fa-envelope"
-title = "Email"
-url = "mailto:clement.thorens@inf.ethz.ch"
 
 [menu]
 
