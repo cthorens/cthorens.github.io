@@ -21,7 +21,7 @@ profilePicture = "images/kontaktparty.jpg"
 # licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 
 ## Set custom theme color.
-# themeColor = "#fc2803"
+themeColor = "#0e3b73"
 
 ## Set custom CSS and/or JS to override site defaults.
 # customCss = ["css/blog.css"]
