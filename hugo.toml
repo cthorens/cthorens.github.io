@@ -43,6 +43,14 @@ icon = "fa-mastodon"
 title = "Mastodon"
 url = "https://infosec.exchange/@cthorens"
 
+# Publications
+
+[[params.publications]]
+title = "Ascend-CC: Confidential Computing on Heterogeneous NPU for Emerging Generative AI Workloads"
+authors = "Aritra Dhar, Clément Thorens, Lara Magdalena Lazier, Lukas Cavigelli"
+journal = "arXiv"
+url = "https://arxiv.org/abs/2407.11888"
+
 [menu]
 
 # [[menu.main]]

@@ -9,6 +9,18 @@
     <div class="homepage-content">
       <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
       {{ .Content }}
+      <ul class="fa-ul">
+        {{ range $item := .Site.Params.publications }}
+      <li>
+        <a href="{{ $item.url }}" rel="me" title="{{ $item.title }}" target="_blank" style="color: inherit;text-decoration: none;">
+          <span class="fa-li"><i class="fas fa-book"></i></span>
+          <h6>{{ $item.title }}</h6>
+          <i>{{ $item.authors }}</i>
+          <div>{{ $item.journal }}</div>
+        </a>
+      </li>
+        {{ end }}
+      </ul>
     </div>
     <div>
       {{ range first 10 .Site.RegularPages }}
