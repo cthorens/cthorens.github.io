@@ -51,6 +51,12 @@ authors = "Aritra Dhar, Clément Thorens, Lara Magdalena Lazier, Lukas Cavigelli
 journal = "arXiv"
 url = "https://arxiv.org/abs/2407.11888"
 
+[[params.publications]]
+title = "Devlore: Extending Arm CCA to Integrated Devices A Journey Beyond Memory to Interrupt Isolation"
+authors = "Andrin Bertschi, Supraja Sridhara, Friederike Groschupp, Mark Kuhne, Benedict Schlüter, Clément Thorens, Nicolas Dutly, Srdjan Capkun, Shweta Shinde"
+journal = "arXiv"
+url = "https://www.arxiv.org/abs/2408.05835"
+
 [menu]
 
 # [[menu.main]]
