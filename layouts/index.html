@@ -15,7 +15,7 @@
         <a href="{{ $item.url }}" rel="me" title="{{ $item.title }}" target="_blank" style="color: inherit;text-decoration: none;">
           <span class="fa-li"><i class="fas fa-book"></i></span>
           <h6>{{ $item.title }}</h6>
-          <i>{{ $item.authors }}</i>
+          <i>{{ $item.authors | markdownify}}</i>
           <div>{{ $item.journal }}</div>
         </a>
       </li>
