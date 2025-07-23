@@ -49,7 +49,8 @@ url = "https://infosec.exchange/@cthorens"
 title = "GuardAIn: Protecting Emerging Generative AI Workloads on Heterogeneous NPU"
 authors = "Aritra Dhar*, **Clément Thorens***, Lara Magdalena Lazier, Lukas Cavigelli"
 journal = "IEEE S&P 2025"
-url = "https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00221"
+url = "/pdfs/guardain.pdf"
+# url = "https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00221"
 
 [[params.publications]]
 title = "Devlore: Extending Arm CCA to Integrated Devices A Journey Beyond Memory to Interrupt Isolation"
