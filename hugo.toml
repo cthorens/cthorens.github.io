@@ -24,7 +24,7 @@ profilePicture = "images/kontaktparty.jpg"
 themeColor = "#0e3b73"
 
 ## Set custom CSS and/or JS to override site defaults.
-# customCss = ["css/blog.css"]
+customCss = ["css/custom.css"]
 # customJs = ["js/blog.js"]
 
 ## Set as many as you want.
