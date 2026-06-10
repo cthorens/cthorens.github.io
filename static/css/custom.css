@@ -33,7 +33,7 @@
   color: #000000;
 }
 
-@media (min-width: 80em) {
+@media (min-width: 100em) {
   .content {
     max-width: 40rem;
     margin-left: auto !important;
@@ -43,7 +43,7 @@
   }
 }
 
-@media (min-width: 80em) {
+@media (min-width: 100em) {
   .sidebar {
     left: calc(50% - 40rem);
   }
