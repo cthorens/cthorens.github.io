@@ -58,6 +58,12 @@ authors = "Andrin Bertschi, Supraja Sridhara, Friederike Groschupp, Mark Kuhne, 
 journal = "arXiv"
 url = "https://www.arxiv.org/abs/2408.05835"
 
+[[params.publications]]
+title = "CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation"
+authors = "**Clément Thorens**, Shweta Shinde"
+journal = "USENIX Security 2026"
+# url = "/pdfs/guardain.pdf"
+
 [menu]
 
 # [[menu.main]]
