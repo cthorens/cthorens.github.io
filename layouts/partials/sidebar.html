@@ -19,7 +19,7 @@
 
       <h1>{{ .Site.Title }}</h1>
       {{ with .Site.Params.description }}
-      <p style="font-size:19px; "><i class="fas fa-envelope"></i> <a href="mailto:{{.}}">{{.}}</a></p>
+      <p style="font-size:19px; "><a href="mailto:{{.}}"><i class="fas fa-envelope"></i> {{.}}</a></p>
       {{end}}
     </div>
 
