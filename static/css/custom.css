@@ -33,6 +33,24 @@
   color: #000000;
 }
 
+/* Narrow screens (768-928px): stack sidebar on top */
+@media (min-width: 48em) and (max-width: 57.99em) {
+  .sidebar {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+  .content {
+    max-width: 40rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  footer {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
 @media (min-width: 100em) {
   .content {
     max-width: 40rem;
