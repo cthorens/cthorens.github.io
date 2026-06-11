@@ -61,8 +61,8 @@ url = "https://www.arxiv.org/abs/2408.05835"
 [[params.publications]]
 title = "CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation"
 authors = "**Clément Thorens**, Shweta Shinde"
-journal = "USENIX Security 2026 (Paper coming soon)"
-# url = "/pdfs/guardain.pdf"
+journal = "USENIX Security 2026"
+url = "/pdfs/cokemon.pdf"
 
 [menu]
 
