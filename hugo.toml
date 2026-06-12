@@ -46,6 +46,12 @@ url = "https://infosec.exchange/@cthorens"
 # Publications
 
 [[params.publications]]
+title = "CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation"
+authors = "**Clément Thorens**, Shweta Shinde"
+journal = "USENIX Security 2026"
+url = "/pdfs/cokemon.pdf"
+
+[[params.publications]]
 title = "GuardAIn: Protecting Emerging Generative AI Workloads on Heterogeneous NPU"
 authors = "Aritra Dhar*, **Clément Thorens***, Lara Magdalena Lazier, Lukas Cavigelli"
 journal = "IEEE S&P 2025"
@@ -57,12 +63,6 @@ title = "Devlore: Extending Arm CCA to Integrated Devices A Journey Beyond Memor
 authors = "Andrin Bertschi, Supraja Sridhara, Friederike Groschupp, Mark Kuhne, Benedict Schlüter, **Clément Thorens**, Nicolas Dutly, Srdjan Capkun, Shweta Shinde"
 journal = "arXiv"
 url = "https://www.arxiv.org/abs/2408.05835"
-
-[[params.publications]]
-title = "CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation"
-authors = "**Clément Thorens**, Shweta Shinde"
-journal = "USENIX Security 2026"
-url = "/pdfs/cokemon.pdf"
 
 [menu]
 
